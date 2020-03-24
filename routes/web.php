@@ -15,8 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('read/login','index\IndexController@login');
-Route::get('read/login','index\IndexController@login');
+Route::get('read/login','IndexController@login');
 
 
 
