@@ -15,7 +15,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('read/login','IndexController@login');
+Route::get('read/token','Index\IndexController@token');
+Route::get('read/index','Index\IndexController@index');
+Route::get('read/code','Index\IndexController@code');
+Route::get('read/wechat','Index\IndexController@WeChat');
+Route::get('read/wechatlogin','Index\IndexController@wechatlogin');
 
 
+Route::get('read/login','Login\LoginController@index');
+Route::post('read/login_do','Login\LoginController@login_do');
 
