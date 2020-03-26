@@ -24,4 +24,5 @@ Route::get('read/wechatlogin','Index\IndexController@wechatlogin');
 
 Route::get('read/login','Login\LoginController@index');
 Route::post('read/login_do','Login\LoginController@login_do');
+Route::post('read/wechat_do','Login\LoginController@wechat_do');
 

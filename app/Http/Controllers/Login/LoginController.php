@@ -26,4 +26,20 @@ class LoginController extends Controller
             }
         }
     }
+
+    public function wechat_do(Request $request)
+    {
+        $openid = $request->input('openid');
+        $tel = $request->input('tel');
+        $pwd = $request->input('pwd');
+        $data = User::where(['openid'=>$openid])->update([
+            'tel'=>$tel,
+            'pwd'=>$pwd
+        ]);
+        if($data){
+            echo '绑定成功';
+        }else{
+            echo '绑定成功';
+        }
+    }
 }
