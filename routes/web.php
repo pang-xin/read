@@ -26,3 +26,10 @@ Route::get('read/login','Login\LoginController@index');
 Route::post('read/login_do','Login\LoginController@login_do');
 Route::post('read/wechat_do','Login\LoginController@wechat_do');
 
+Route::get('read/reg','Login\LoginController@reg');
+Route::post('read/reg_do','Login\LoginController@reg_do');
+
+
+Route::post('read/aliyun_code','aliyun@code');
+
+Route::get('read/search','Index\IndexController@search');

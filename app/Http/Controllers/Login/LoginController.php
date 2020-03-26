@@ -5,6 +5,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Model\User;
 
+
 class LoginController extends Controller
 {
     public function index()
@@ -16,11 +17,16 @@ class LoginController extends Controller
     {
         $tel = $request->input('tel');
         $pwd = $request->input('pwd');
-
+        $code = $request->input('code');
+        $code1 = session('code');
+        if($code != $code1){
+            echo '验证码不正确';die;
+        }
         $info = User::where(['tel'=>$tel])->first()->toArray();
         if(!empty($info)){
             if($pwd == $info['pwd']){
-                echo '登陆成功';
+                session(['tel'=>$tel]);
+                return redirect('read/index');
             }else{
                 echo '登陆失败';
             }
@@ -32,6 +38,16 @@ class LoginController extends Controller
         $openid = $request->input('openid');
         $tel = $request->input('tel');
         $pwd = $request->input('pwd');
+        $code = $request->input('code');
+        $code1 = session('code');
+        if($code != $code1){
+            echo '验证码不正确';die;
+        }
+        $telinfo = User::where(['tel'=>$tel])->first();
+        if(!empty($telinfo)){
+            echo '此手机号已注册 请换一个手机号再绑定';die;
+        }
+
         $data = User::where(['openid'=>$openid])->update([
             'tel'=>$tel,
             'pwd'=>$pwd
@@ -42,4 +58,38 @@ class LoginController extends Controller
             echo '绑定成功';
         }
     }
+
+    public function reg()
+    {
+        return view('login.reg');
+    }
+
+    public function reg_do(Request $request)
+    {
+        $tel = $request->input('tel');
+        $pwd = $request->input('pwd');
+        $code = $request->input('code');
+        $code1 = session('code');
+        if($code != $code1){
+            echo '验证码不正确';die;
+        }
+        if($tel == ''){
+            echo '手机号不能为空';die;
+        }
+        if($pwd == ''){
+            echo '密码不能为空';die;
+        }
+
+        $data = User::create([
+            'tel'=>$tel,
+            'pwd'=>$pwd
+        ]);
+
+        if($data){
+            return redirect('read/login');
+        }else{
+            echo '注册失败';
+        }
+    }
+
 }

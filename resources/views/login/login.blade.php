@@ -7,13 +7,15 @@
 <body>
     <form action="{{url('read/login_do')}}" method="post">
         手机号:<input type="text" name="tel"><br>
-        密码  :<input type="password" name="pwd"><br>
+        密码&nbsp;&nbsp;  :<input type="password" name="pwd"><br>
         <input type="submit" value="登陆">
     </form>
 <div style="float:left;">
     <p>微信扫码登陆</p>
     <img src="/1.png" alt="">
     <p class="shixiao"></p><span class="content"></span>
+    <p>如果您没有关注 请先关注</p>
+    <img src="/2.png" alt="">
 </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>

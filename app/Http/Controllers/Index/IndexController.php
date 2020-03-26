@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Index;
 use App\Http\Controllers\Controller;
 use App\Model\Qrcode;
 use App\Model\User;
+use Illuminate\Http\Request;
+use App\Model\Book;
 
 include '../app/Tools/phpqrcode.php';
 
@@ -14,11 +16,31 @@ class IndexController extends Controller
         echo $_GET['echostr'];
     }
 
-    public function index()
+    public function index(Request $request)
     {
-        return view('read/index');
+        $search = $request->input('search');
+        if(empty($search)){
+            return view('read/index');
+        }else{
+            $bookname = Book::where(['book_name'=>$search])->first();
+            if(empty($bookname)){
+                $info = Book::where(['author'=>$search])->get();
+                return view('search.author',['info'=>$info,'author'=>$search]);
+            }else{
+                if(empty($bookname->book_search)){
+                    Book::where(['book_name'=>$search])->update(['book_search'=>1]);
+                }else{
+                    $num = $bookname->book_search + 1;
+                    Book::where(['book_name'=>$search])->update(['book_search'=>$num]);
+                }
+                return view('search.book',['bookname'=>$bookname]);
+            }
+        }
+
+
     }
 
+    //生成二维码
     public function code()
     {
         $uid = uniqid();
@@ -30,6 +52,7 @@ class IndexController extends Controller
 
     }
 
+    //调用微信接口
     public function Wechat()
     {
         $uid = $_GET['uid'];
@@ -39,6 +62,8 @@ class IndexController extends Controller
         header("location:$url");
     }
 
+
+    //微信验证登录
     public function wechatlogin()
     {
         $code = $_GET['code'];
@@ -69,6 +94,26 @@ class IndexController extends Controller
             }else{
                 echo '登陆成功';
             }
+        }
+    }
+
+    public function search(Request $request)
+    {
+        $search = $request->input('search');
+        $bookname = Book::where(['book_name'=>$search])->first();
+        if(empty($bookname)){
+            $info = Book::where(['author'=>$search])->get();
+            echo 1;
+            return view('search.author',['info'=>$info]);
+        }else{
+            if(empty($bookname->book_search)){
+                Book::where(['book_name'=>$search])->update(['book_search'=>1]);
+            }else{
+                $num = $bookname->book_search + 1;
+                Book::where(['book_name'=>$search])->update(['book_search'=>$num]);
+            }
+            echo 2;
+            return view('search.book',['bookname'=>$bookname]);
         }
     }
 }
