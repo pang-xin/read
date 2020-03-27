@@ -218,21 +218,12 @@
             <div class="PartR">
                 <div class="infoBox">
                     <section class="book">
-
+                        搜索排名前五的书籍
                         <ul>
+                            @foreach($bookinfo as $k=>$v)
                             <li><img src="images/nansheng.jpg" width="150px" height="175px">
-                                <p>完美世界： <span>点击阅读</span></p></li>
-                            <li><img src="images/nansheng_two.jpg" width="150px" height="175px">
-                                <p>仙逆： <span>点击阅读</span></p></li>
-                            <li><img src="images/nansheng_three.jpg" width="150px" height="175px">
-                                <p>黑暗降临之时： <span>点击阅读</span></p></li>
-                            <li><img src="images/nansheng_five.jpg" width="150px" height="175px">
-                                <p>虎贲万岁： <span>点击阅读</span></p></li>
-                            <li><img src="images/nansheng_four.jpeg" width="150px" height="175px">
-                                <p>烽火长安： <span>点击阅读</span></p></li>
-                            <li><img src="images/191853ehbvpp17vopop5h7.jpg" width="150px" height="175px">
-                                <p>龙血战神： <span>点击阅读</span></p></li>
-
+                                <p>{{$v->book_name}}： <span>点击阅读</span></p></li>
+                            @endforeach
                         </ul>
                     </section>
                 </div>

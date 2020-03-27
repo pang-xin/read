@@ -7,7 +7,7 @@
 <body>
     {{$author}}所有的书籍
     @foreach($info as $k=>$v)
-        {{$v->book_name}}
+        {{$v['book_name']}}
     @endforeach
 </body>
 </html>

@@ -20,11 +20,15 @@ class IndexController extends Controller
     {
         $search = $request->input('search');
         if(empty($search)){
-            return view('read/index');
+            $bookinfo = Book::orderBy('book_search','desc')->get()->take(5);
+            return view('read/index',['bookinfo'=>$bookinfo]);
         }else{
             $bookname = Book::where(['book_name'=>$search])->first();
             if(empty($bookname)){
-                $info = Book::where(['author'=>$search])->get();
+                $info = Book::where('author','like','%'.$search.'%')->get()->toArray();
+                if(empty($info)){
+                    echo '您搜索的内容不存在';die;
+                }
                 return view('search.author',['info'=>$info,'author'=>$search]);
             }else{
                 if(empty($bookname->book_search)){
