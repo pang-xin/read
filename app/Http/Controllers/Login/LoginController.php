@@ -37,26 +37,29 @@ class LoginController extends Controller
     {
         $openid = $request->input('openid');
         $tel = $request->input('tel');
-        $pwd = $request->input('pwd');
         $code = $request->input('code');
         $code1 = session('code');
+        if(empty($code)){
+            echo '验证码不能为空';die;
+        }
         if($code != $code1){
             echo '验证码不正确';die;
         }
-        $telinfo = User::where(['tel'=>$tel])->first();
+
+        $telinfo = User::where(['tel'=>$tel])->first()->toArray();
         if(!empty($telinfo)){
-            echo '此手机号已注册 请换一个手机号再绑定';die;
+            $data = User::where(['tel'=>$tel])->update([
+                'openid'=>$openid,
+            ]);
+            if($data){
+                echo '绑定成功';
+            }else{
+                echo '绑定成功';
+            }
         }
 
-        $data = User::where(['openid'=>$openid])->update([
-            'tel'=>$tel,
-            'pwd'=>$pwd
-        ]);
-        if($data){
-            echo '绑定成功';
-        }else{
-            echo '绑定成功';
-        }
+
+
     }
 
     public function reg()
@@ -70,6 +73,9 @@ class LoginController extends Controller
         $pwd = $request->input('pwd');
         $code = $request->input('code');
         $code1 = session('code');
+        if(empty($code)){
+            echo '验证码不能为空';die;
+        }
         if($code != $code1){
             echo '验证码不正确';die;
         }

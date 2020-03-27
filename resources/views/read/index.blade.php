@@ -36,14 +36,10 @@
     <div id="Logo" >
         <ul>
             <li class="first"><span class="iconfont">&#xe627;</span>全部小说分类</li>
-            <li><a href="index.html" title="首页">首页</a></li>
-            <li><a href="#" title="魂帝武神">魂帝武神</a></li>
-            <li><a href="#">万古第一帝</a></li>
-            <li><a href="#">绝世弃少</a></li>
-            <li><a href="#">谋断九州</a></li>
-            <li><a href="#">天命修罗</a></li>
-            <li><a href="#">紫阳</a></li>
-            <li class="last"></li>
+            <li><a href="{{url('read/index')}}" title="首页">首页</a></li>
+            @foreach($cateinfo as $k=>$v)
+                <li><a href="javascript:;" cate_id="{{$v->cate_id}}" id="cate">{{$v->cate_name}}</a></li>
+            @endforeach
         </ul>
     </div>
     <!--主体-->
@@ -55,10 +51,8 @@
                     <li>
                         <h3>都市小说</h3>
                         <p><a href="">狂少</a><a href="">校花的贴身高手</a></p>
-                        <div class="moreNav">
-
-
-                        </div>
+                        <div class="moreNav"></div>
+                        <div class="moreNav"></div>
                         <div class="border_top"></div>
                         <div class="border_bottom"></div>
                         <div class="border_right"></div>
@@ -198,22 +192,11 @@
             </div>
 
             <div class="PartM">
-                <ul>
-                    <li><a>男生</a></li>
-                    <li><a >女生</a></li>
-                    <li><a >更新</a></li>
-                    <li><a >签约作品</a></li>
-                    <li><a>完本</a></li>
-                    <li class="one"></li>
-                </ul>
+            <h3>月票榜</h3>
 
-
-
-                <div class="faceul_zero">
-                    <img src="images/2918920-1543581449000.jpg"/>
-                    <p>左手杀天下不仁之人右手治为善之人 </p>
-                    <span class="hot">热销书籍</span>
-                </div>
+            @foreach($monthInfo as $k=>$v)
+                    <li><a href="{{url('read/details/'.$v['book_id'])}}">{{$v['book_name']}}</a>{{$v['month_ticket']}}</li>
+            @endforeach
             </div>
             <div class="PartR">
                 <div class="infoBox">
@@ -221,8 +204,8 @@
                         搜索排名前五的书籍
                         <ul>
                             @foreach($bookinfo as $k=>$v)
-                            <li><img src="images/nansheng.jpg" width="150px" height="175px">
-                                <p>{{$v->book_name}}： <span>点击阅读</span></p></li>
+                            <li><a href="{{url('read/details/'.$v->book_id)}}"><img src="images/nansheng.jpg" width="150px" height="175px"></a>
+                                <p>{{$v->book_name}}： <a href="{{url('read/details/'.$v->book_id)}}">点击阅读</a></p></li>
                             @endforeach
                         </ul>
                     </section>
@@ -441,19 +424,10 @@
                 });
 
 
-                {{--$('.searchBtn').on('click',function(){--}}
-                {{--    var search = $('input[name="w"]').val();--}}
-                {{--    $.ajax({--}}
-                {{--        url:"{{url('read/search')}}",--}}
-                {{--        type:'get',--}}
-                {{--        data:{search:search},--}}
-                {{--        success:function(res){--}}
-                {{--            if(res == '1'){--}}
-                {{--                location:href--}}
-                {{--            }--}}
-                {{--        }--}}
-                {{--    })--}}
-                {{--});--}}
+                $(document).on('click','#cate',function(){
+                    var cate_id = $(this).attr('cate_id');
+                    location.href = 'http://1905read.lijiaxin.xyz/read/cate?cate_id='+cate_id;
+                });
 
             </script>
 

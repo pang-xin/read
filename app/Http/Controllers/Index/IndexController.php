@@ -6,6 +6,8 @@ use App\Model\Qrcode;
 use App\Model\User;
 use Illuminate\Http\Request;
 use App\Model\Book;
+use App\Model\Cate;
+use App\Model\Month;
 
 include '../app/Tools/phpqrcode.php';
 
@@ -21,7 +23,10 @@ class IndexController extends Controller
         $search = $request->input('search');
         if(empty($search)){
             $bookinfo = Book::orderBy('book_search','desc')->get()->take(5);
-            return view('read/index',['bookinfo'=>$bookinfo]);
+//            $cateinfo = Book::join('cate','book.cate_id','=','cate.cate_id')->orderBy('book_search','desc')->get()->take(3)->toArray();
+            $cateinfo = Cate::get();
+            $monthInfo = Month::join('book','month.book_id','=','book.book_id')->orderBy('month_ticket','desc')->get()->toArray();
+            return view('read/index',['bookinfo'=>$bookinfo,'cateinfo'=>$cateinfo,'monthInfo'=>$monthInfo]);
         }else{
             $bookname = Book::where(['book_name'=>$search])->first();
             if(empty($bookname)){
@@ -88,11 +93,7 @@ class IndexController extends Controller
             echo '登陆失败';
         }else{
             $openidinfo = User::where(['openid'=>$openid])->first();
-            if(empty($openidinfo)){
-                User::create([
-                    'openid'=>$openid
-                ]);
-            }
+
             if($openidinfo['tel'] == ''){
                 return view('login/wechat',['openid'=>$openid]);
             }else{

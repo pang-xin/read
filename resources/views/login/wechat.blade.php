@@ -14,7 +14,6 @@
     手机号:<input type="text" name="tel"><br>
     <input type="text" name="code" style="width:8%; margin-left: 52px;">
     <input type="button" value="获取验证码" id="btn"><br>
-    密码  :<input type="password" name="pwd"><br>
     <input type="submit" value="绑定手机号">
 </form>
 </body>

@@ -33,3 +33,8 @@ Route::post('read/reg_do','Login\LoginController@reg_do');
 Route::post('read/aliyun_code','aliyun@code');
 
 Route::get('read/search','Index\IndexController@search');
+
+
+Route::get('read/cate','Index\CateController@cate');
+
+Route::get('read/details/{book_id}','Index\DetailsController@details');
