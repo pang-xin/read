@@ -17,11 +17,6 @@ class LoginController extends Controller
     {
         $tel = $request->input('tel');
         $pwd = $request->input('pwd');
-        $code = $request->input('code');
-        $code1 = session('code');
-        if($code != $code1){
-            echo '验证码不正确';die;
-        }
         $info = User::where(['tel'=>$tel])->first()->toArray();
         if(!empty($info)){
             if($pwd == $info['pwd']){
@@ -37,15 +32,6 @@ class LoginController extends Controller
     {
         $openid = $request->input('openid');
         $tel = $request->input('tel');
-        $code = $request->input('code');
-        $code1 = session('code');
-        if(empty($code)){
-            echo '验证码不能为空';die;
-        }
-        if($code != $code1){
-            echo '验证码不正确';die;
-        }
-
         $telinfo = User::where(['tel'=>$tel])->first()->toArray();
         if(!empty($telinfo)){
             $data = User::where(['tel'=>$tel])->update([

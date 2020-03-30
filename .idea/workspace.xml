@@ -34,6 +34,7 @@
       <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Model/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Book.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Model/Cate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Cate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/Details.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Details.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Model/Month.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Month.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Model/Qrcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Qrcode.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Model/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/User.php" afterDir="false" />
@@ -320,7 +321,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -330,17 +331,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="Z:\read\app\Model" />
-      <recent name="Z:\read\public" />
-      <recent name="Z:\read\resources\views\login" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Z:\read\public" />
       <recent name="Z:\read\public\read" />
       <recent name="Z:\read\app\Tools" />
       <recent name="Z:\read\resources\views\code" />
       <recent name="Z:\read" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="Z:\read\public" />
+      <recent name="Z:\read\app\Model" />
+      <recent name="Z:\read\resources\views\login" />
     </key>
   </component>
   <component name="RunManager">
@@ -380,6 +381,7 @@
       <workItem from="1585188690112" duration="24469000" />
       <workItem from="1585279087535" duration="14465000" />
       <workItem from="1585447725221" duration="1046000" />
+      <workItem from="1585534488214" duration="20684000" />
     </task>
     <servers />
   </component>
@@ -399,10 +401,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="592" y="225" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1585054717004" />
-    <state x="565" y="331" key="NewPhpFileDialog" timestamp="1585305626199">
+    <state x="546" y="415" key="NewPhpFileDialog" timestamp="1585568006619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="565" y="331" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1585305626199" />
+    <state x="546" y="415" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1585568006619" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1585221117739">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -411,10 +413,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="623" y="310" key="WebDeployment.AddServerDialog.v.1/0.0.1536.824@0.0.1536.824" timestamp="1585047153463" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585447724632">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585534493575">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585447724632" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585534493575" />
     <state x="598" y="143" key="ftp.server.browser" timestamp="1585055116121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

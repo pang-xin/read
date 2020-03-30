@@ -21,32 +21,36 @@ class IndexController extends Controller
     public function index(Request $request)
     {
         $search = $request->input('search');
+        $cate = $request->input('cate');
         if(empty($search)){
             $bookinfo = Book::orderBy('book_search','desc')->get()->take(5);
-//            $cateinfo = Book::join('cate','book.cate_id','=','cate.cate_id')->orderBy('book_search','desc')->get()->take(3)->toArray();
             $cateinfo = Cate::get();
             $monthInfo = Month::join('book','month.book_id','=','book.book_id')->orderBy('month_ticket','desc')->get()->toArray();
             return view('read/index',['bookinfo'=>$bookinfo,'cateinfo'=>$cateinfo,'monthInfo'=>$monthInfo]);
         }else{
-            $bookname = Book::where(['book_name'=>$search])->first();
-            if(empty($bookname)){
-                $info = Book::where('author','like','%'.$search.'%')->get()->toArray();
-                if(empty($info)){
-                    echo '您搜索的内容不存在';die;
+            if(!empty($search) || !empty($cate)){
+                $bookname = Book::where(['book_name' => $search,'cate_id'=>$cate])->first();
+                if (empty($bookname)) {
+                    $info = Book::where('author', 'like', '%' . $search . '%')->get()->toArray();
+                    if (empty($info)) {
+                        echo '您搜索的内容不存在';
+                        die;
+                    }
+                    return view('search.author', ['info' => $info, 'author' => $search]);
+                } else {
+                    if (empty($bookname->book_search)) {
+                        Book::where(['book_name' => $search])->update(['book_search' => 1]);
+                    } else {
+                        $num = $bookname->book_search + 1;
+                        Book::where(['book_name' => $search])->update(['book_search' => $num]);
+                    }
+                    $tel = session('tel');
+                    $book_id = $bookname->book_id;
+                    $bookname = Book::join('details', 'book.book_id', '=', 'details.book_id')->where(['book.book_id' => $book_id])->first();
+                    return view('search.book', ['bookname' => $bookname, 'tel' => $tel]);
                 }
-                return view('search.author',['info'=>$info,'author'=>$search]);
-            }else{
-                if(empty($bookname->book_search)){
-                    Book::where(['book_name'=>$search])->update(['book_search'=>1]);
-                }else{
-                    $num = $bookname->book_search + 1;
-                    Book::where(['book_name'=>$search])->update(['book_search'=>$num]);
-                }
-                return view('search.book',['bookname'=>$bookname]);
             }
         }
-
-
     }
 
     //生成二维码

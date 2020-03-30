@@ -12,9 +12,28 @@
         <div class="search">
             <form>
                 <div id="searchTxt" class="searchTxt" >
+                    <div class="searchMenu">
+
+                        <div class="searchSelected" id="searchSelected">
+                            <select name="cate">
+                                <option value="">全部</option>
+                                @foreach($cateinfo as $k=>$v)
+                                    <option value="{{$v->cate_id}}">{{$v->cate_name}}</option>
+                                @endforeach
+                            </select>
+                        </div>
+
+                        <div style="display:none;" class="searchTab" id="searchTab">
+
+
+
+
+                        </div>
+
+                    </div>
                     <input name="search" type="text" />
                     <div class="searchBtn">
-                        <button id="searchBtn" type="submit" style="margin-left: 68px;">搜索</button>
+                        <button id="searchBtn" type="submit">搜索</button>
                     </div>
                 </div>
             </form>
@@ -24,13 +43,17 @@
         <div class="user">
             <font><a href="{{url('read/login')}}">登录&nbsp;&nbsp;&nbsp;|</a></font>
             <font><a href="{{url('read/reg')}}">注册</a></font>
+            <a href="{{url('read/writer_area')}}">作家专区</a>
         </div>
         @else
             <div class="user">
                 欢迎{{Session::get('tel')}}用户登录
+                <a href="{{url('read/writer_area')}}">作家专区</a>
             </div>
         @endif
     </div>
+
+
 
 
     <div id="Logo" >
