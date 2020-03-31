@@ -50,3 +50,6 @@ Route::post('read/login_writer_do','Index\WriterController@login_writer_do');
 
 Route::get('read/book','Index\WriterController@book');
 Route::post('read/book_do','Index\WriterController@book_do');
+
+Route::get('read/admin','Admin\adminController@admin');
+Route::get('book/review','Admin\adminController@review');

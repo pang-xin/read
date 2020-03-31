@@ -23,12 +23,11 @@ class IndexController extends Controller
         $search = $request->input('search');
         $cate = $request->input('cate');
         if(empty($search)){
-            $bookinfo = Book::orderBy('book_search','desc')->get()->take(5);
+            $bookinfo = Book::where(['status'=>2])->orderBy('book_search','desc')->get()->take(5);
             $cateinfo = Cate::get();
-            $monthInfo = Month::join('book','month.book_id','=','book.book_id')->orderBy('month_ticket','desc')->get()->toArray();
+            $monthInfo = Month::join('book','month.book_id','=','book.book_id')->where(['book.status'=>2])->orderBy('month_ticket','desc')->get()->toArray();
             return view('read/index',['bookinfo'=>$bookinfo,'cateinfo'=>$cateinfo,'monthInfo'=>$monthInfo]);
         }else{
-            if(!empty($search) || !empty($cate)){
                 $bookname = Book::where(['book_name' => $search,'cate_id'=>$cate])->first();
                 if (empty($bookname)) {
                     $info = Book::where('author', 'like', '%' . $search . '%')->get()->toArray();
@@ -46,10 +45,9 @@ class IndexController extends Controller
                     }
                     $tel = session('tel');
                     $book_id = $bookname->book_id;
-                    $bookname = Book::join('details', 'book.book_id', '=', 'details.book_id')->where(['book.book_id' => $book_id])->first();
+                    $bookname = Book::join('details', 'book.book_id', '=', 'details.book_id')->where(['book.book_id' => $book_id,'book.status'=>2])->first();
                     return view('search.book', ['bookname' => $bookname, 'tel' => $tel]);
                 }
-            }
         }
     }
 

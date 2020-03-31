@@ -132,18 +132,14 @@
 
                 <!--图片滚动部分-->
                 <div class="scroll">
-                    <img src="images/woyufengtian.jpg" width="100%" height="100%"/>
-                    <img src="images/q_one.jpg" width="100%" height="100%"/>
-                    <img src="images/zetianji.jpg" width="100%" height="100%"/>
-                    <img src="images/doupocangqion.jpg" width="100%" height="100%"/>
-                    <img src="images/woyufengtian.jpg"  width="100%" height="100%"/>
-                    <img src="images/two.jpg" />
+                    @foreach($bookinfo as $k=>$v)
+                        <img src="{{$v->book_file}}" width="100%" height="100%"/>
+                    @endforeach
                 </div>
 
                 <!--滚动按扭部分-->
                 <div class="But">
                     <span class="hover"></span>
-                    <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
@@ -227,7 +223,7 @@
                         搜索排名前五的书籍
                         <ul>
                             @foreach($bookinfo as $k=>$v)
-                            <li><a href="{{url('read/details/'.$v->book_id)}}"><img src="images/nansheng.jpg" width="150px" height="175px"></a>
+                            <li><a href="{{url('read/details/'.$v->book_id)}}"><img src="{{$v->book_file}}" width="150px" height="175px"></a>
                                 <p>{{$v->book_name}}： <a href="{{url('read/details/'.$v->book_id)}}">点击阅读</a></p></li>
                             @endforeach
                         </ul>

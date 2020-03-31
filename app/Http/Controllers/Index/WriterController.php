@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Model\Writer;
 use App\Model\Cate;
 use App\Model\Book;
+use App\Model\Details;
 
 class WriterController extends Controller
 {
@@ -88,15 +89,15 @@ class WriterController extends Controller
             'cate_id'=>$data['cate_id'],
             'book_file'=>$data['book_file']
         ]);
-        dd($res);
-    }
-
-    public function upload($file){
-        if (request()->file($file)->isValid()) {
-            $photo = request()->file($file);
-            $store_result = $photo->store('public/status/image');
-            return $store_result;
+        $book_id = $res->book_id;
+        $res1 = Details::create([
+            'introd'=>$data['introd'],
+            'chapter'=>$data['chapter'],
+            'chapter_desc'=>$data['chapter_desc'],
+            'book_id'=>$book_id
+        ]);
+        if($res1){
+            return redirect('book/review');
         }
-        exit('未获取到上传文件或上传过程出错');
     }
 }

@@ -45,8 +45,9 @@
             </div>
             @else
                 <p>欢迎作者{{$pen_name}}登陆</p>
+                <div><a href="{{url('read/admin')}}">创建作品</a></div>
             @endif
-                <div><a href="{{url('read/book')}}">添加作品</a></div>
+
         </div>
 
         <!-- 图标列表，包含用户信息 -->
