@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Index;
 
 use App\Http\Controllers\Controller;
+use App\Model\Month;
 use Illuminate\Http\Request;
 use App\Model\Writer;
 use App\Model\Cate;
@@ -40,7 +41,11 @@ class WriterController extends Controller
             'identity'=>$data['identity'],
             'pwd'=>$pwd
         ]);
-        dd($res);
+        if($res){
+            return redirect('read/login_writer');
+        }else{
+            echo '申请失败';
+        }
     }
 
     public function login_writer()
@@ -53,7 +58,7 @@ class WriterController extends Controller
         $data = $request->all();
         $pwd = md5($data['pwd']);
 
-        $info = Writer::where(['pen_name'=>$data['pen_name']])->first();
+        $info = Writer::where(['pen_name'=>$data['pen_name'],'status'=>2])->first();
         if(!empty($info)){
             if($pwd != $info['pwd']){
                 echo '密码有误';die;
@@ -62,7 +67,7 @@ class WriterController extends Controller
                 return redirect('read/writer_area');
             }
         }else{
-            echo '笔名不存在';die;
+            echo '该作者没审核通过或者该作者不存在';die;
         }
     }
 
@@ -90,6 +95,7 @@ class WriterController extends Controller
             'book_file'=>$data['book_file']
         ]);
         $book_id = $res->book_id;
+        Month::create(['book_id'=>$book_id]);
         $res1 = Details::create([
             'introd'=>$data['introd'],
             'chapter'=>$data['chapter'],

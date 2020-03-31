@@ -28,7 +28,7 @@ class IndexController extends Controller
             $monthInfo = Month::join('book','month.book_id','=','book.book_id')->where(['book.status'=>2])->orderBy('month_ticket','desc')->get()->toArray();
             return view('read/index',['bookinfo'=>$bookinfo,'cateinfo'=>$cateinfo,'monthInfo'=>$monthInfo]);
         }else{
-                $bookname = Book::where(['book_name' => $search,'cate_id'=>$cate])->first();
+                $bookname = Book::where(['book_name' => $search,'status'=>2])->first();
                 if (empty($bookname)) {
                     $info = Book::where('author', 'like', '%' . $search . '%')->get()->toArray();
                     if (empty($info)) {

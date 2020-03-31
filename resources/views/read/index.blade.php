@@ -133,7 +133,7 @@
                 <!--图片滚动部分-->
                 <div class="scroll">
                     @foreach($bookinfo as $k=>$v)
-                        <img src="{{$v->book_file}}" width="100%" height="100%"/>
+                        <img src="{{$v->book_file}}" book_id="{{$v->book_id}}" width="100%" height="100%" id="img"/>
                     @endforeach
                 </div>
 
@@ -446,6 +446,11 @@
                 $(document).on('click','#cate',function(){
                     var cate_id = $(this).attr('cate_id');
                     location.href = 'http://1905read.lijiaxin.xyz/read/cate?cate_id='+cate_id;
+                });
+
+                $(document).on('click','#img',function(){
+                    var book_id = $(this).attr('book_id');
+                    location.href = 'http://1905read.lijiaxin.xyz/read/details/'+book_id;
                 });
 
             </script>

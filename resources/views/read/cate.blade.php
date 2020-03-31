@@ -15,8 +15,8 @@
         <ul>
 
             @foreach($cateinfo as $k=>$v)
-                <li><img src="images/nansheng.jpg" width="150px" height="175px">
-                    <p>{{$v['book_name']}}： <span>点击阅读</span></p></li>
+                <li><a href="{{url('read/details/'.$v['book_id'])}}"><img src="{{$v['book_file']}}" width="150px" height="175px"></a>
+                    <p>{{$v['book_name']}}： <a href="{{url('read/details/'.$v['book_id'])}}">点击阅读</a></p></li>
             @endforeach
         </ul>
     </section>

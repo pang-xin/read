@@ -17,6 +17,7 @@
       <change beforePath="$PROJECT_DIR$/.styleci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/adminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/adminController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Index/CateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Index/CateController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Index/DetailsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Index/DetailsController.php" afterDir="false" />
@@ -78,7 +79,236 @@
       <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/bootstrap-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/bootstrap-rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/demo/webuploader-demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/demo/webuploader-demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/patterns/header-profile-skin-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/patterns/header-profile-skin-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/patterns/header-profile-skin-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/patterns/header-profile-skin-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/patterns/header-profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/patterns/header-profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/patterns/shattered.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/patterns/shattered.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/css/blueimp-gallery-indicator.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/css/blueimp-gallery-indicator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/css/blueimp-gallery-video.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/css/blueimp-gallery-video.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/css/blueimp-gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/css/blueimp-gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/css/blueimp-gallery.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/css/blueimp-gallery.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/css/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/img/error.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/img/error.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/img/error.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/img/error.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/img/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/img/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/img/play-pause.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/img/play-pause.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/img/play-pause.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/img/play-pause.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/img/video-play.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/img/video-play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/img/video-play.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/blueimp/img/video-play.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/bootstrap-table/bootstrap-table.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/bootstrap-table/bootstrap-table.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/chosen/chosen-sprite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/chosen/chosen-sprite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/chosen/chosen-sprite@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/chosen/chosen-sprite@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/chosen/chosen.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/chosen/chosen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/clockpicker/clockpicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/clockpicker/clockpicker.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/codemirror/ambiance.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/codemirror/ambiance.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/codemirror/codemirror.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/codemirror/codemirror.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/colorpicker/img/bootstrap-colorpicker/alpha.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/colorpicker/img/bootstrap-colorpicker/hue.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/colorpicker/img/bootstrap-colorpicker/hue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/colorpicker/img/bootstrap-colorpicker/saturation.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/colorpicker/img/bootstrap-colorpicker/saturation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/cropper/cropper.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/cropper/cropper.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/dataTables/dataTables.bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/dataTables/dataTables.bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/datapicker/datepicker3.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/datapicker/datepicker3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/dropzone/basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/dropzone/basic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/dropzone/dropzone.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/dropzone/dropzone.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/duallistbox/bootstrap-duallistbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/duallistbox/bootstrap-duallistbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/footable/fonts/footable.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/footable/fonts/footable.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/footable/fonts/footable.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/footable/fonts/footable.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/footable/fonts/footable.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/footable/fonts/footable.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/footable/fonts/footable.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/footable/fonts/footable.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/footable/footable.core.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/footable/footable.core.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/fullcalendar/fullcalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/fullcalendar/fullcalendar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/fullcalendar/fullcalendar.print.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/fullcalendar/fullcalendar.print.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/iCheck/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/iCheck/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/iCheck/green.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/iCheck/green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/iCheck/green@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/iCheck/green@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/images/sort_asc.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/images/sort_asc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/images/sort_desc.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/images/sort_desc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/images/sprite-skin-flat.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/images/sprite-skin-flat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/images/spritemap.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/images/spritemap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/images/spritemap@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/images/spritemap@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/ionRangeSlider/ion.rangeSlider.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/ionRangeSlider/ion.rangeSlider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/jQueryUI/images/ui-icons_222222_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/jQueryUI/images/ui-icons_222222_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/jQueryUI/images/ui-icons_454545_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/jQueryUI/images/ui-icons_454545_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/jQueryUI/images/ui-icons_888888_256x240.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/jQueryUI/images/ui-icons_888888_256x240.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/jQueryUI/jquery-ui-1.10.4.custom.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/jasny/jasny-bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/jasny/jasny-bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/jqgrid/ui.jqgrid.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/jqgrid/ui.jqgrid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/jsTree/32px.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/jsTree/32px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/jsTree/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/jsTree/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/jsTree/throbber.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/jsTree/throbber.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/markdown/bootstrap-markdown.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/markdown/bootstrap-markdown.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/morris/morris-0.4.3.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/morris/morris-0.4.3.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/multiselect/bootstrap-multiselect.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/multiselect/bootstrap-multiselect.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/nouslider/jquery.nouislider.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/nouslider/jquery.nouislider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/plyr/plyr.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/plyr/plyr.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/plyr/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/plyr/sprite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/simditor/simditor.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/simditor/simditor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/steps/jquery.steps.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/steps/jquery.steps.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/summernote/summernote-bs3.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/summernote/summernote-bs3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/summernote/summernote.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/summernote/summernote.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/sweetalert/sweetalert.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/sweetalert/sweetalert.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/switchery/switchery.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/switchery/switchery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/toastr/toastr.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/toastr/toastr.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/treeview/bootstrap-treeview.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/treeview/bootstrap-treeview.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/plugins/webuploader/webuploader.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/plugins/webuploader/webuploader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/a1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/a1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/a2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/a2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/a3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/a3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/a4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/a4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/a5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/a5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/a6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/a6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/a7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/a7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/a8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/a8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/a9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/a9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/browser.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/browser.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/iconfont-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/iconfont-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/loading-upload.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/loading-upload.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/locked.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/locked.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/login-background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/login-background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/p1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/p1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/p2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/p2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/p3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/p3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/profile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/profile_small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/profile_small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/progress.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/progress.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/sprite-skin-flat.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/sprite-skin-flat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/success.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/success.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/webuploader.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/webuploader.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/img/wenku_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/img/wenku_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/hAdmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/hAdmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/jquery-ui-1.10.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/jquery-ui-1.10.4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/jquery-ui.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/jquery-ui.custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/jquery.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/beautifyhtml/beautifyhtml.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/beautifyhtml/beautifyhtml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/blueimp/jquery.blueimp-gallery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/blueimp/jquery.blueimp-gallery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/bootstrap-table/bootstrap-table-mobile.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/bootstrap-table/bootstrap-table.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/bootstrap-table/bootstrap-table.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/chartJs/Chart.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/chartJs/Chart.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/chosen/chosen.jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/chosen/chosen.jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/cropper/cropper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/cropper/cropper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/dataTables/dataTables.bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/dataTables/dataTables.bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/dataTables/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/dataTables/jquery.dataTables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/datapicker/bootstrap-datepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/datapicker/bootstrap-datepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/duallistbox/jquery.bootstrap-duallistbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/duallistbox/jquery.bootstrap-duallistbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/echarts/echarts-all.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/echarts/echarts-all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/flot/curvedLines.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/flot/curvedLines.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/flot/jquery.flot.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/flot/jquery.flot.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/flot/jquery.flot.pie.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/flot/jquery.flot.pie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/flot/jquery.flot.resize.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/flot/jquery.flot.resize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/flot/jquery.flot.spline.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/flot/jquery.flot.spline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/flot/jquery.flot.symbol.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/flot/jquery.flot.symbol.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/flot/jquery.flot.tooltip.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/flot/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/footable/footable.all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/footable/footable.all.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/fullcalendar/fullcalendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/fullcalendar/fullcalendar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/fullcalendar/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/fullcalendar/moment.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/gritter/images/gritter-light.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/gritter/images/gritter-light.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/gritter/images/gritter.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/gritter/images/gritter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/gritter/images/ie-spacer.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/gritter/images/ie-spacer.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/gritter/jquery.gritter.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/gritter/jquery.gritter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/gritter/jquery.gritter.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/gritter/jquery.gritter.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/iCheck/icheck.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/iCheck/icheck.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/ionRangeSlider/jasny/jasny-bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/ionRangeSlider/jasny/jasny-bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/jasny/jasny-bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/jasny/jasny-bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/jeditable/jquery.jeditable.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/jeditable/jquery.jeditable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/jqgrid/i18n/grid.locale-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/jqgrid/i18n/grid.locale-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/jqgrid/jquery.jqGrid.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/jqgrid/jquery.jqGrid.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/jquery-ui/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/jquery-ui/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/jsTree/jstree.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/jsTree/jstree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/jsTree/jstree.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/jsTree/jstree.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/extend/layer.ext.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/extend/layer.ext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/laydate/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/laydate/laydate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/laydate/need/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/laydate/need/laydate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/laydate/skins/default/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/laydate/skins/default/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/laydate/skins/default/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/laydate/skins/default/laydate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/layer.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/layer.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/layim/data/chatlog.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/layim/data/chatlog.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/layim/data/friend.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/layim/data/friend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/layim/data/group.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/layim/data/group.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/layim/data/groups.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/layim/data/groups.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/layim/layim.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/layim/layim.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/layim/layim.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/layim/layim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/layim/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/layim/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/icon-ext.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/icon_ext.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/icon_ext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/loading-0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/loading-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/loading-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/textbg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/textbg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/xubox_ico0.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/xubox_ico0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/xubox_loading0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/xubox_loading0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/xubox_loading1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/xubox_loading1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/xubox_loading2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/xubox_loading2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/xubox_loading3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/xubox_loading3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/xubox_title0.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/default/xubox_title0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/layer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/layer.ext.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/layer.ext.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/moon/default.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/moon/default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/moon/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/layer/skin/moon/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/markdown/bootstrap-markdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/markdown/bootstrap-markdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/markdown/bootstrap-markdown.zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/markdown/bootstrap-markdown.zh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/markdown/markdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/markdown/markdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/markdown/to-markdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/markdown/to-markdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/metisMenu/jquery.metisMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/metisMenu/jquery.metisMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/multiselect/bootstrap-multiselect.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/multiselect/bootstrap-multiselect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/peity/jquery.peity.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/peity/jquery.peity.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/plyr/plyr.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/plyr/plyr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/prettyfile/bootstrap-prettyfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/prettyfile/bootstrap-prettyfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/slimscroll/jquery.slimscroll.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/slimscroll/jquery.slimscroll.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/sparkline/jquery.sparkline.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/sparkline/jquery.sparkline.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/suggest/bootstrap-suggest.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/suggest/bootstrap-suggest.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/suggest/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/suggest/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/toastr/toastr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/toastr/toastr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/treeview/bootstrap-treeview.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/treeview/bootstrap-treeview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/validate/additional-methods.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/validate/additional-methods.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/validate/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/validate/jquery.validate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Wechat/js/plugins/validate/messages_zh.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/Wechat/js/plugins/validate/messages_zh.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/7.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/read/css/basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/read/css/basic.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/read/images/191853ehbvpp17vopop5h7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/read/images/191853ehbvpp17vopop5h7.jpg" afterDir="false" />
@@ -614,6 +844,283 @@
       <change beforePath="$PROJECT_DIR$/public/static/picture/txwxlogo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/picture/txwxlogo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/static/picture/type-button-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/picture/type-button-1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/static/picture/yc_ewm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/static/picture/yc_ewm.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/anchor/anchor.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/anchor/anchor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/attachment.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/attachment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/attachment.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/attachment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/attachment.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/attachment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_chm.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_chm.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_default.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_default.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_doc.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_doc.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_exe.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_exe.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_jpg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_jpg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_mp3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_mp3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_mv.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_mv.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_pdf.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_pdf.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_ppt.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_ppt.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_psd.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_psd.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_rar.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_rar.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_txt.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_txt.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_xls.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/fileTypeImages/icon_xls.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/alignicon.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/alignicon.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/alignicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/alignicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/file-icons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/file-icons.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/file-icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/file-icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/icons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/icons.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/progress.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/progress.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/success.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/success.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/success.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/attachment/images/success.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/background/background.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/background/background.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/background/background.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/background/background.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/background/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/background/background.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/background/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/background/images/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/background/images/success.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/background/images/success.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/chart.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/chart.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/charts.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/charts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/charts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/charts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/charts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/images/charts0.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/images/charts0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/images/charts1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/images/charts1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/images/charts2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/images/charts2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/images/charts3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/images/charts3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/images/charts4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/images/charts4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/images/charts5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/charts/images/charts5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/emotion.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/emotion.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/emotion.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/emotion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/emotion.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/emotion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/images/0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/images/0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/images/bface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/images/bface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/images/cface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/images/cface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/images/fface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/images/fface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/images/jxface2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/images/jxface2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/images/neweditor-tab-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/images/neweditor-tab-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/images/tface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/images/tface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/images/wface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/images/wface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/images/yface.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/emotion/images/yface.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/gmap/gmap.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/gmap/gmap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/help/help.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/help/help.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/help/help.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/help/help.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/help/help.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/help/help.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/image.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/image.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/images/alignicon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/images/alignicon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/images/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/images/icons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/images/icons.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/images/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/images/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/images/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/images/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/images/progress.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/images/progress.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/images/success.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/images/success.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/images/success.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/image/images/success.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/insertframe/insertframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/insertframe/insertframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/internal.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/internal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/link/link.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/link/link.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/map/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/map/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/map/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/map/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/music/music.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/music/music.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/music/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/music/music.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/music/music.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/music/music.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/preview/preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/preview/preview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/addimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/addimg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/brush.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/brush.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/delimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/delimg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/delimgH.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/delimgH.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/empty.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/empty.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/emptyH.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/emptyH.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/eraser.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/eraser.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/redo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/redo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/redoH.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/redoH.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/scale.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/scale.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/scaleH.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/scaleH.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/size.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/size.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/undo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/undo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/undoH.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/images/undoH.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/scrawl.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/scrawl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/scrawl.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/scrawl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/scrawl.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/scrawl/scrawl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/searchreplace/searchreplace.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/searchreplace/searchreplace.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/searchreplace/searchreplace.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/searchreplace/searchreplace.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/snapscreen/snapscreen.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/snapscreen/snapscreen.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/spechars/spechars.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/spechars/spechars.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/spechars/spechars.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/spechars/spechars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/table/dragicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/table/dragicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/table/edittable.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/table/edittable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/table/edittable.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/table/edittable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/table/edittable.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/table/edittable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/table/edittd.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/table/edittd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/table/edittip.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/table/edittip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/images/bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/images/bg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/images/pre0.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/images/pre0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/images/pre1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/images/pre1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/images/pre2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/images/pre2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/images/pre3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/images/pre3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/images/pre4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/images/pre4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/template/template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/center_focus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/center_focus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/file-icons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/file-icons.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/file-icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/file-icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/icons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/icons.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/left_focus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/left_focus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/none_focus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/none_focus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/progress.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/progress.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/right_focus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/right_focus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/success.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/success.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/success.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/images/success.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/video.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/video.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/video/video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/webapp/webapp.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/webapp/webapp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/wordimage/fClipboard_ueditor.swf" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/wordimage/fClipboard_ueditor.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/wordimage/imageUploader.swf" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/wordimage/imageUploader.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/wordimage/tangram.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/wordimage/tangram.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/wordimage/wordimage.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/wordimage/wordimage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/dialogs/wordimage/wordimage.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/dialogs/wordimage/wordimage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/en/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/en/en.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/addimage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/addimage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/alldeletebtnhoverskin.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/alldeletebtnhoverskin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/alldeletebtnupskin.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/alldeletebtnupskin.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/button.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/button.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/deletedisable.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/deletedisable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/deleteenable.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/deleteenable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/listbackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/listbackground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/localimage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/localimage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/music.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/music.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/rotateleftdisable.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/rotateleftdisable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/rotateleftenable.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/rotateleftenable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/rotaterightdisable.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/rotaterightdisable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/rotaterightenable.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/rotaterightenable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/upload.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/en/images/upload.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/zh-cn/images/copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/zh-cn/images/copy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/zh-cn/images/localimage.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/zh-cn/images/localimage.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/zh-cn/images/music.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/zh-cn/images/music.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/zh-cn/images/upload.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/zh-cn/images/upload.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/lang/zh-cn/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/lang/zh-cn/zh-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/php/Uploader.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/php/Uploader.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/php/action_crawler.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/php/action_crawler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/php/action_list.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/php/action_list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/php/action_upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/php/action_upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/php/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/php/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/php/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/php/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/css/ueditor.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/css/ueditor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/css/ueditor.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/css/ueditor.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/dialogbase.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/dialogbase.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/anchor.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/anchor.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/arrow_down.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/arrow_down.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/arrow_up.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/arrow_up.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/button-bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/button-bg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/cancelbutton.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/cancelbutton.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/charts.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/charts.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/cursor_h.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/cursor_h.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/cursor_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/cursor_h.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/cursor_v.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/cursor_v.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/cursor_v.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/cursor_v.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/dialog-title-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/dialog-title-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/filescan.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/filescan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/highlighted.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/highlighted.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/icons-all.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/icons-all.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/icons.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/icons.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/loaderror.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/loaderror.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/lock.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/lock.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/neweditor-tab-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/neweditor-tab-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/pagebreak.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/pagebreak.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/scale.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/scale.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/sortable.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/sortable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/spacer.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/spacer.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/sparator_v.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/sparator_v.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/table-cell-align.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/table-cell-align.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/tangram-colorpicker.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/tangram-colorpicker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/toolbar_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/toolbar_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/unhighlighted.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/unhighlighted.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/upload.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/upload.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/videologo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/videologo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/word.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/word.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/wordpaste.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/default/images/wordpaste.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/themes/iframe.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/themes/iframe.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/SyntaxHighlighter/shCore.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/SyntaxHighlighter/shCoreDefault.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/SyntaxHighlighter/shCoreDefault.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/codemirror/codemirror.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/codemirror/codemirror.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/codemirror/codemirror.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/codemirror/codemirror.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/adapters/mootools-adapter.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/adapters/mootools-adapter.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/adapters/prototype-adapter.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/adapters/prototype-adapter.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/adapters/standalone-framework.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/adapters/standalone-framework.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/highcharts-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/highcharts-more.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/highcharts-more.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/highcharts.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/highcharts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/highcharts.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/highcharts.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/annotations.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/annotations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/annotations.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/canvas-tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/canvas-tools.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/data.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/data.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/drilldown.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/drilldown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/drilldown.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/exporting.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/exporting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/exporting.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/funnel.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/funnel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/funnel.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/heatmap.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/heatmap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/heatmap.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/map.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/map.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/no-data-to-display.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/no-data-to-display.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/themes/dark-blue.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/themes/dark-green.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/themes/dark-green.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/themes/gray.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/themes/gray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/themes/grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/themes/grid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/themes/skies.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/highcharts/themes/skies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/jquery-1.10.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/jquery-1.10.2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/jquery-1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/jquery-1.10.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/jquery-1.10.2.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/jquery-1.10.2.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/snapscreen/UEditorSnapscreen.exe" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/snapscreen/UEditorSnapscreen.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/video-js/font/vjs.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/video-js/font/vjs.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/video-js/font/vjs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/video-js/font/vjs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/video-js/font/vjs.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/video-js/font/vjs.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/video-js/font/vjs.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/video-js/font/vjs.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/video-js/video-js.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/video-js/video-js.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/video-js/video-js.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/video-js/video-js.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/video-js/video-js.swf" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/video-js/video-js.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/video-js/video.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/video-js/video.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/video-js/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/video-js/video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/Uploader.swf" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/Uploader.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.flashonly.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.flashonly.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.html5only.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.html5only.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.withoutimage.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.withoutimage.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/xss.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/xss.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/zeroclipboard/ZeroClipboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/zeroclipboard/ZeroClipboard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/third-party/zeroclipboard/ZeroClipboard.swf" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/third-party/zeroclipboard/ZeroClipboard.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/ueditor.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/ueditor.all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/ueditor.all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/ueditor.all.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/ueditor.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/ueditor.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/ueditor.parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/ueditor.parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ueditor-mz/ueditor.parse.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/ueditor-mz/ueditor.parse.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
@@ -623,6 +1130,8 @@
       <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/review.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/review.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/login/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/login/reg.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login/reg.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/login/wechat.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login/wechat.blade.php" afterDir="false" />
@@ -789,7 +1298,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -800,11 +1309,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="Z:\read\public\images" />
-      <recent name="Z:\read\public" />
+      <recent name="Z:\read\resources\views\admin" />
       <recent name="Z:\read\app\Http\Controllers\Admin" />
       <recent name="Z:\read\app\Model" />
-      <recent name="Z:\read\resources\views\login" />
+      <recent name="Z:\read\public\images" />
+      <recent name="Z:\read\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Z:\read\public" />
@@ -852,7 +1361,7 @@
       <workItem from="1585279087535" duration="14465000" />
       <workItem from="1585447725221" duration="1046000" />
       <workItem from="1585534488214" duration="21701000" />
-      <workItem from="1585621712065" duration="6836000" />
+      <workItem from="1585621712065" duration="16382000" />
     </task>
     <servers />
   </component>
@@ -872,10 +1381,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="592" y="225" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1585054717004" />
-    <state x="546" y="415" key="NewPhpFileDialog" timestamp="1585627750292">
+    <state x="546" y="415" key="NewPhpFileDialog" timestamp="1585653721166">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="546" y="415" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1585627750292" />
+    <state x="546" y="415" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1585653721166" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1585221117739">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -896,10 +1405,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1577323241665" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585202169370">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585652375910">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585202169370" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585652375910" />
     <state x="565" y="149" key="webDeployment.PermissionsDialog.Tabs" timestamp="1585056345059">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

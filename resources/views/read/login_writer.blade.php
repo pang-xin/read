@@ -30,7 +30,8 @@
     <form action="{{url('read/login_writer_do')}}" method="post">
         笔名&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="pen_name"><br>
         密码&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="pwd"><br>
-        <input type="submit" value="作者登陆">
+        <input type="submit" value="作者登陆"><br>
+        如果您是新用户 请点击<<a href="{{url('admin/login')}}">这里</a>>去管理员审核
     </form>
 </div>
 

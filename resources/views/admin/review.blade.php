@@ -13,15 +13,15 @@
         <td>审核</td>
     </tr>
     <tr>
-        @foreach($review as $k=>$v)
-            <td>{{$v->book_name}}</td>
-            <td>{{$v->author}}</td>
-            <td><img src="{{$v->book_file}}" style="width: 50px;height: 50px;"></td>
-            <td>
-                <a href="">通过审核</a>
-                <a href="">审核不通过</a>
-            </td>
-        @endforeach
+            @foreach($review as $k=>$v)
+                <td>{{$v['book_name']}}</td>
+                <td>{{$v['author']}}</td>
+                <td><img src="{{$v['book_file']}}" style="width: 50px;height: 50px;"></td>
+                <td>
+                    <a href="{{url('book/review_by/'.$v['book_id'])}}">通过审核</a>
+                    <a href="{{url('book/review_no/'.$v['book_id'])}}">审核不通过</a>
+                </td>
+            @endforeach
     </tr>
 </table>
 </body>

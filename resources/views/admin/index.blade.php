@@ -47,7 +47,7 @@
                     <span class="ng-scope">分类</span>
                 </li>
                 <li>
-                    <a class="J_menuItem" href="{{url('read/book')}}">
+                    <a class="J_menuItem" href="{{url('admin/index')}}">
                         <i class="fa fa-home"></i>
                         <span class="nav-label">主页</span>
                     </a>
@@ -61,10 +61,31 @@
                     </a>
                     <ul class="nav nav-second-level">
                         <li>
-                            <a class="J_menuItem" href="{{url('read/book')}}">作品添加</a>
-                        </li>
-                        <li>
                             <a class="J_menuItem" href="{{url('book/review')}}">作品审核</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa fa-bar-chart-o"></i>
+                        <span class="nav-label">作者管理</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a class="J_menuItem" href="{{url('author/review')}}">作者审核</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa fa-bar-chart-o"></i>
+                        <span class="nav-label">管理员</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level">
+                        <li>
+                            <a class="J_menuItem" href="{{url('admin/reg')}}">管理员添加</a>
                         </li>
                     </ul>
                 </li>
@@ -126,7 +147,7 @@
                             </li>
                         </ul>
                     </li>
-                    <a href="{{url('admin/login')}}">管理员登陆</a>
+                    欢迎{{Session('admin')}}管理员登陆
                     <li class="dropdown">
                         <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
                             <i class="fa fa-bell"></i> <span class="label label-primary">8</span>
@@ -164,7 +185,7 @@
             </nav>
         </div>
         <div class="row J_mainContent" id="content-main">
-            <iframe id="J_iframe" width="100%" height="100%" src="{{url('read/book')}}?v=4.0" frameborder="0" data-id="index_v1.html" seamless></iframe>
+            <iframe id="J_iframe" width="100%" height="100%" src="{{url('admin/i')}}?v=4.0" frameborder="0" data-id="index_v1.html" seamless></iframe>
         </div>
     </div>
     <!--右侧部分结束-->

@@ -53,3 +53,19 @@ Route::post('read/book_do','Index\WriterController@book_do');
 
 Route::get('read/admin','Admin\adminController@admin');
 Route::get('book/review','Admin\adminController@review');
+Route::get('book/review_by/{book_id}','Admin\adminController@review_by');
+Route::get('book/review_no/{book_id}','Admin\adminController@review_no');
+
+
+Route::get('admin/login','Admin\LoginController@login');
+Route::post('admin/login_do','Admin\LoginController@login_do');
+
+Route::get('admin/reg','Admin\LoginController@reg');
+Route::post('admin/reg_do','Admin\LoginController@reg_do');
+
+
+Route::get('admin/index','Admin\IndexController@index');
+Route::get('author/review','Admin\IndexController@review');
+
+Route::get('author/review_by/{writer_id}','Admin\IndexController@review_by');
+Route::get('author/review_no/{writer_id}','Admin\IndexController@review_no');
