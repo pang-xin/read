@@ -17,6 +17,8 @@
       <change beforePath="$PROJECT_DIR$/.styleci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/adminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/adminController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Index/CateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Index/CateController.php" afterDir="false" />
@@ -34,6 +36,7 @@
       <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Model/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Book.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Model/Cate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Cate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Model/Details.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Details.php" afterDir="false" />
@@ -1131,6 +1134,10 @@
       <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/author.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/author.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/reg.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/reg.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/review.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/review.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/login/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/login/reg.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/login/reg.blade.php" afterDir="false" />
@@ -1361,7 +1368,7 @@
       <workItem from="1585279087535" duration="14465000" />
       <workItem from="1585447725221" duration="1046000" />
       <workItem from="1585534488214" duration="21701000" />
-      <workItem from="1585621712065" duration="16382000" />
+      <workItem from="1585621712065" duration="17562000" />
     </task>
     <servers />
   </component>

@@ -153,6 +153,7 @@
 
     $(document).on('click','.but_month',function(){
         var tel = $('#tel').val();
+        var month_ticket = prompt('请输入投月票的数量');
         if(tel == ''){
             alert('请您登录后再来投月票');
             location.href="http://1905read.lijiaxin.xyz/read/login";
@@ -161,10 +162,10 @@
             $.ajax({
                 url:"{{url('read/ticket')}}",
                 type:"post",
-                data:{book_id:book_id},
+                data:{book_id:book_id,month_ticket:month_ticket},
                 success:function(res){
                     if(res == 1){
-                        location.href="http://1905read.lijiaxin.xyz/read/alipay";
+                        location.href="http://1905read.lijiaxin.xyz/read/alipay?month_ticket="+month_ticket;
                     }
                 }
             });

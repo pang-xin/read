@@ -74,9 +74,10 @@ class aliyun extends Controller
     ];
     public function alipay()
     {
+        $month_ticket = $_GET['month_ticket'];
         $order = [
             'out_trade_no' => time(),
-            'total_amount' => '1',
+            'total_amount' => "$month_ticket",
             'subject' => '月票',
         ];
 

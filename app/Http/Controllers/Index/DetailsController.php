@@ -19,11 +19,12 @@ class DetailsController extends Controller
     public function ticket(Request $request)
     {
         $book_id = $request->input('book_id');
+        $month_ticket = $request->input('month_ticket');
         $info = Month::where(['book_id'=>$book_id])->first();
         if(empty($info)){
-            $res = Month::where(['book_id'=>$book_id])->update(['month_ticket'=>1]);
+            $res = Month::where(['book_id'=>$book_id])->update(['month_ticket'=>$month_ticket]);
         }else{
-            $num = $info->month_ticket+1;
+            $num = $info->month_ticket+$month_ticket;
             $res = Month::where(['book_id'=>$book_id])->update(['month_ticket'=>$num]);
         }
 
